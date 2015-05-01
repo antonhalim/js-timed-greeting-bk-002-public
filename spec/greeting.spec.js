@@ -1,11 +1,6 @@
 'use strict';
 
 describe('greeting', function() {
-  var greeting;
-  beforeEach(function() {
-    greeting = require('../lib/greeting');
-  });
-
   it('returns Good Morning! during the morning', function() {
     expect(greeting(6)).toEqual('Good Morning!');
   });

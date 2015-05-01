@@ -1,12 +1,6 @@
 'use strict';
 
 describe('isMorning', function() {
-
-  var isMorning;
-  beforeEach(function() {
-    isMorning = require('../lib/isMorning');
-  });
-
   it('returns true in the morning', function() {
     expect(isMorning(10)).toEqual(true);
   });
